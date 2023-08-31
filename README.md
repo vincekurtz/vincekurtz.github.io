@@ -2,14 +2,24 @@
 
 ## Dependencies
 
-- [Jekyll](https://jekyllrb.com/docs/)
+Just install `docker` and `docker-compose`. 
 
-## Updating
+See [al-folio theme](https://github.com/alshedivat/al-folio) documentation for
+details.
 
 ## Testing Locally
 
 ```
-bundle exec jekyll serve
+docker-compose up
 ```
 
+## Making updates
+
+Most changes go in the markdown files in `_pages`. Project descriptions are in
+`_projects`.
+
+Paper bibtex is in `_bibliography/papers.bib`, including some extra fields for a
+preview image, whether a paper is a "selected publication" for the main page, etc. 
+
 ## Deploying
+
