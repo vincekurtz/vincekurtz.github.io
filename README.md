@@ -8,4 +8,8 @@
 
 ## Testing Locally
 
+```
+bundle exec jekyll serve
+```
+
 ## Deploying
