@@ -24,7 +24,7 @@ quadrupeds and manipulators.
 Sometimes my research involves flashy things like
 [throwing robots off ladders](https://youtu.be/FRcyfp-9x5o?t=198) to get them to land
 on their feet: other times it's more mundane, like getting a robot to
-[roll an oversized tennis ball](https://youtu.be/IqxJKbM8_ms?t=26). 
+[pick up a plastic box](https://youtu.be/-lJWiGdBPfQ?t=131).
 
 From 2017-2023 I was a PhD student in the [DISCOVER
 lab](https://sites.google.com/a/nd.edu/discoverlab/) at Notre
