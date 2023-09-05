@@ -8,7 +8,8 @@ horizontal: false
 social: true
 ---
 
-Email is the most reliable way to get in touch: `vjkurtz at gmail dot com`.
+Email is the most reliable way to get in touch:
+[vjkurtz@gmail.com](mailto:vjkurtz@gmail.com).
 
 <!-- Social -->
 {%- if page.social %}
