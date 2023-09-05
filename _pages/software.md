@@ -2,7 +2,7 @@
 layout: page
 title: Software
 permalink: /software/
-description: Open-source software packages I've developed to support my research.
+description: A partial list of open-source software I've developed to support my research.
 nav: true
 nav_order: 3
 display_categories: 

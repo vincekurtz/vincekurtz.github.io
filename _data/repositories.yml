@@ -1,3 +1,6 @@
+github_users:
+  - vincekurtz
+
 github_repos:
   - vincekurtz/stlpy
   - vincekurtz/drake_ddp
