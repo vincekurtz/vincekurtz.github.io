@@ -1,11 +1,10 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image and giscus comments
-img: assets/img/3.jpg
-importance: 2
-category: work
-giscus_comments: true
+title: Dextrous Manipulation
+description: How can we get robots to move stuff around?
+img:
+importance: 3
+category: fun
 ---
 
 Every project has a beautiful feature showcase page.

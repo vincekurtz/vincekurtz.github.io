@@ -1,11 +1,10 @@
 ---
 layout: page
-title: Contact-Implicit Optimization
-description: a project with a background image
-img: assets/img/12.jpg
-importance: 1
-category: work
-related_publications: einstein1956investigations, einstein1950meaning
+title: Legged Locomotion
+description: How can we get robots to move through the world?
+img: assets/img/1.jpg
+importance: 3
+category: fun
 ---
 
 Every project has a beautiful feature showcase page.

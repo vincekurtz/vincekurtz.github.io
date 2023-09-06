@@ -1,9 +1,8 @@
 ---
 layout: page
-title: project 3
-description: a project that redirects to another website
+title: Approximate Simulation
+description: Can we obtain formal guarantees when planning with a reduced-order model?
 img: assets/img/7.jpg
-redirect: https://unsplash.com
 importance: 3
 category: work
 ---
