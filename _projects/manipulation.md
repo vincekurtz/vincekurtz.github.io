@@ -2,8 +2,8 @@
 layout: page
 title: Dextrous Manipulation
 description: How can we get robots to move stuff around?
-img:
-importance: 3
+img: assets/img/allegro_rotation.gif
+importance: 6
 category: fun
 related_publications: kurtz2023inverse, kurtz2020trajectory, kurtz2022contact,
     kurtz2021control

@@ -2,8 +2,8 @@
 layout: page
 title: Legged Locomotion
 description: How can we get robots to move through the world?
-img: assets/img/1.jpg
-importance: 3
+img: assets/img/mini_cheetah.png
+importance: 5
 category: fun
 related_publications: kurtz2023inverse, kurtz2020approximate, kurtz2022contact,
     kurtz2022mini, lemmon2022learning, kurtz2019formal 
