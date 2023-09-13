@@ -9,21 +9,20 @@ related_publications: saxena2016learning, kurtz2019toward, lemmon2022learning,
 ---
 
 Deep neural networks have revolutionized computer vision and natural language
-processing, solving problems that previously seemed intractable. Is robotics
-next?
+processing, solving problems that [previously seemed
+intractable](https://xkcd.com/1425/). Is robotics next?
 
-It's possible, but there are still a few major hurtles. One is
+It's possible, but there are a few major hurtles. One is
 data: unlike computer vision and natural language processing, the internet does
 not contain vast troves of ready-made robotics data. Collecting new data is slow
-and costly, especially if hardware experiments are involved. 
-
-Another problem is safety. Machine learning methods can perform well, but they
+and expensive, especially if hardware experiments are involved. Another problem is 
+safety. Machine learning methods can perform well, but they
 don't generalize outside the training dataset and can sometimes exhibit
-surprisingly bad behaviors. 
+[surprisingly bad
+behaviors](https://ieeexplore.ieee.org/abstract/document/8294186).
 
-A potential solution to both these problems is to combine ML methods with
-classical model-based control. Ideally, this can bring together the best of both
-worlds. 
+One potential solution is to combine machine learning with classical model-based control. 
+Ideally, this can bring together the best of both worlds. 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -40,3 +39,16 @@ worlds.
     To land a quadruped robot on its feet like a cat, we used a combination of
     supervised learning and model-based trajectory optimizaiton.
 </div>
+
+Additionally, there's good reason to hope that model-based techniques can
+inspire the next revolution in machine learning for robotics. Contrary to a
+popular narrative about the "magic" of deep learning, recent breakthroughs in
+computer vision and natural language processing were enabled by key insights into
+the structure of the problem. For computer vision, this insight was the 
+importance of
+[convolution](https://en.wikipedia.org/wiki/Convolutional_neural_network). 
+For natural language, it was the concept of 
+[attention](https://en.wikipedia.org/wiki/Transformer_(machine_learning_model)).
+What is the key structural insight that will enable machine learning for robotics 
+at scale?
+
