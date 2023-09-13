@@ -28,7 +28,7 @@ neatly into any of these formulations.
 
 Temporal logic is one way to specify a wide array of desired behaviors. 
 Given a logical formula that defines the task, how can we generate a trajectory 
-that satisfies the specification? Can we guarantee that we will find
+that satisfies the specification? Can we guarantee that our algorithm will find
 a solution if one exists? 
 
 Temporal logic planning is 
