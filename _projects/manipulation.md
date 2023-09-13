@@ -5,11 +5,12 @@ description: How can we get robots to move stuff around?
 img:
 importance: 3
 category: fun
-related_publications: kurtz2023inverse
+related_publications: kurtz2023inverse, kurtz2020trajectory, kurtz2022contact,
+    kurtz2021control
 ---
 
 The goal of robot manipulation is simple: just move an object from point A to
-point B. How hard can it be?
+point B. How hard could it be?
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">

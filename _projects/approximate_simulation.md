@@ -12,10 +12,10 @@ related_publications: kurtz2020approximate, song2022robust,
 [All models are wrong, but some models are
 useful](https://en.wikipedia.org/wiki/All_models_are_wrong).
 In many robotics applications, rigid-body dynamics are the model of choice.
-Rigid-body dynamics are fairly accurate for robots like quadrupeds, humanoids,
+Rigid-body models are fairly accurate for robots like quadrupeds, humanoids,
 and manipulators, but they are often too complicated to be useful. 
 
-Often roboticists use even simpler models to design controllers, especially for
+This leads roboticists use simpler models to design controllers, especially for
 legged locomotion.
 
 <div class="row">
@@ -36,12 +36,12 @@ legged locomotion.
 
 These reduced-order models capture only the most relevant features of the
 dynamics, such as the relationship between foot placement and the
-center-of-mass. These models underpin much of the success of walking robots in
+center-of-mass. Simplified models underpin much of the success of walking robots in
 recent years.
 
 But there is a large gap between these reduced-order models and more complete
 rigid-body models, not to mention the actual physics of the robot. How can we be
-sure that a plan generated with a reduced-order model actually feasible? Can we
+sure that a plan generated with a reduced-order model is actually feasible? Can we
 provide some performance guarantees when we use a reduced-order model?
 
 <div class="row">
