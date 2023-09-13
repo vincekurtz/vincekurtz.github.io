@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Contact-Implicit Optimization
-description: How can we design robot behaviors that make and break contact? 
+description: How can we design trajectories that make and break contact? 
 img: assets/img/lift_simulation.png
 importance: 1
 category: work
