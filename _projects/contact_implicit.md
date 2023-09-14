@@ -12,7 +12,7 @@ Most things we want robots to do involve contact. Picking stuff up requires
 contact. Moving around also requires contact (unless you can fly). 
 
 But most robots today are bad at contact. Roboticists have spent a long time
-thinking very hard about how to avoid contact entirely. And when contact is 
+thinking very hard about how to avoid collisions entirely. And when contact is 
 inevitable, as in manipulation and legged locomotion, we usually make strict assumptions
 about where (feet only) when (following a predefined sequence) and how (softly
 please!) contact occurs. Unsurprisingly, that can [cause problems](https://youtu.be/g0TaYhjpOfo) 
