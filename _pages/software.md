@@ -2,17 +2,21 @@
 layout: page
 title: Software
 permalink: /software/
-description: A partial list of open-source software I've developed to support my research.
+description: 
 nav: true
 nav_order: 3
 display_categories: 
 horizontal: false
 ---
 
-{% if site.data.repositories.github_repos %}
-<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
-  {% for repo in site.data.repositories.github_repos %}
-    {% include repository/repo.html repository=repo %}
-  {% endfor %}
-</div>
-{% endif %}
+As part of my research, I aim to develop and maintain high-quality open-source code,
+  primarily in python and C++.
+
+Software projects that I'm particularly proud of include 
+[stlpy](https://stlpy.readthedocs.io/en/latest/overview.html),
+a python library for signal temporal logic, and
+[IDTO](https://idto.github.io),
+a state-of-the-art solver for contact-implicit trajectory optimization.
+
+You can find these projects and more on [github](https://github.com/vincekurtz). 
+
