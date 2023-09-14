@@ -3,7 +3,7 @@ layout: page
 title: Machine Learning
 description: Can we combine the promise of machine learning with the rigor of model-based control?
 img: assets/img/neural_net.png
-importance: 3
+importance: 4
 related_publications: saxena2016learning, kurtz2019toward, lemmon2022learning,
     kurtz2022mini
 ---
