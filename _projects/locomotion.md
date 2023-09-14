@@ -18,8 +18,8 @@ anywhere on land, it's hard to beat legs.
     </div>
 </div>
 <div class="caption">
-    My dog, Audie, exhibiting excellent legged locomotion capabilities over some
-    uneven terrain. 
+    My dog, Audie, exhibiting excellent legged locomotion capabilities over
+    shifting and uneven terrain. 
 </div>
 
 Legged robots could enable new transportation methods, assist in disaster response,
