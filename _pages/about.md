@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: # Roboticist, PhD Candidate, University of Notre Dame
+subtitle: Postdoctoral Scholar, California Institute of Technology
 
 profile:
   align: right
@@ -26,9 +26,12 @@ Sometimes my research involves flashy things like
 on their feet: other times it's more mundane, like getting a robot to
 [pick up a plastic box](https://youtu.be/-lJWiGdBPfQ?t=131).
 
+I'm currently a postdoc at Caltech, where I split time between the 
+[Ames](http://www.bipedalrobotics.com/) and
+[Burdick](http://robotics.caltech.edu/) groups. 
 From 2017-2023 I was a PhD student in the [DISCOVER
 lab](https://sites.google.com/a/nd.edu/discoverlab/) at Notre
-Dame. During my PhD, I had the opportunity to collaborate with the excellent
+Dame. During my PhD, I had the opportunity to collaborate with the
 [Drake](https://drake.mit.edu) team at 
 [Toyota Research Institute](https://www.tri.global/). Before grad school, I
 studied physics and violin performance at 

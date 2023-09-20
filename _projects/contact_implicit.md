@@ -51,5 +51,5 @@ task. Additionally, contact-implicit optimization is highly nonlinear with many
 local minima. Finding a globally optimal solution is 
 [NP-hard](https://en.wikipedia.org/wiki/NP-hardness),
 and is probably too much to ask. Even finding a good-enough local optimum 
-can be incredibly difficult.
+can be very difficult.
 
