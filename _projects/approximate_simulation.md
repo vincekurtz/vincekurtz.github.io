@@ -15,7 +15,7 @@ In many robotics applications, rigid-body dynamics are the model of choice.
 Rigid-body models are fairly accurate for robots like quadrupeds, humanoids,
 and manipulators, but they are often too complicated to be useful. 
 
-This leads roboticists use simpler models to design controllers, especially for
+This leads roboticists design controllers based on simpler models, especially for
 legged locomotion.
 
 <div class="row">
