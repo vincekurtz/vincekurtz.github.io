@@ -23,5 +23,5 @@ preview image, whether a paper is a "selected publication" for the main page, et
 
 ## Deploying
 
-Just push to github.
+Just push to `main` branch on github.
 
