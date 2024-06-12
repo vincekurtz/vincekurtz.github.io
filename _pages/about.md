@@ -6,7 +6,7 @@ subtitle: Postdoctoral Scholar, California Institute of Technology
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: vince_joshua_tree.jpg
   image_circular: false # crops the image to make it circular
   address:
 
