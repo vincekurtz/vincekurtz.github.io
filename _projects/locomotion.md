@@ -14,17 +14,18 @@ anywhere on land, it's hard to beat legs.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include video.html path="assets/video/audie_clip.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true loop=true muted=true %}
     </div>
 </div>
 <div class="caption">
-    My dog, exhibiting excellent legged locomotion capabilities. 
+    My dog, Audie, exhibiting excellent legged locomotion capabilities over some
+    uneven terrain. 
 </div>
 
 Legged robots could enable new transportation methods, assist in disaster response,
 and help restore mobility to people who have lost it.
 
-Just like manipulation, people and animals are so good at legged locomotion that we
+Just like [manipulation](/projects/manipulation), people and animals are so good at legged locomotion that we
 often underestimate how difficult it is. Despite recent a surge of progress in
 legged robotics, numerous thorny questions remain. How can a legged robot use its
 whole body -- not just the feet -- to move through the world? What sort of
