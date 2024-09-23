@@ -1,6 +1,6 @@
 ---
 layout: page
-title: trajectory optimization thru contact
+title: Contact-Implicit Optimization
 description: How can we design robot behaviors that make and break contact? 
 img: assets/img/12.jpg
 importance: 1

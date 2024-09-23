@@ -1,24 +1,22 @@
 ---
 layout: page
-title: Approximate Simulation
+title: Certifying Reduced-Order Models
 description: Can we obtain formal guarantees when planning with a reduced-order model?
 img: assets/img/7.jpg
 importance: 3
 category: work
+related_publications: kurtz2020approximate, song2022robust,
+    kurtz2020robust, kurtz2021control, kurtz2019formal
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+[All models are wrong, but some models are
+useful](https://en.wikipedia.org/wiki/All_models_are_wrong).
+In many robotics applications, rigid-body dynamics are the model of choice.
+Rigid-body dynamics are fairly accurate for robots like quadrupeds, humanoids,
+and manipulators, but they are often too complicated to be useful. 
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+Often roboticists use even simpler models to design controllers, especially for
+legged locomotion.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -32,49 +30,27 @@ To give your project a background in the portfolio page, just add the img tag to
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+    Popular reduced-order models for legged locmotion: the Linear Inverted
+    Pendulum (LIP), Spring Loaded Inverted Pendulum (SLIP), and compass-gait walker. 
 </div>
+
+These reduced-order models capture only the most relevant features of the
+dynamics, such as the relationship between foot placement and the
+center-of-mass. These models underpin much of the success of walking robots in
+recent years.
+
+But there is a large gap between these reduced-order models and more complete
+rigid-body models, not to mention the actual physics of the robot. How can we be
+sure that a plan generated with a reduced-order model actually feasible? Can we
+provide some performance guarantees when we use a reduced-order model?
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    This image can also have a caption. It's like magic.
+    The framework of <em>approximate simulation</em> enables formal guarantees when 
+    planning with a reduced-order model. This also improves controller performance. 
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
