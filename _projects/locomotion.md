@@ -1,9 +1,9 @@
 ---
 layout: page
-title: project 6
-description: a project with no image
-img:
-importance: 4
+title: Legged Locomotion
+description: How can we get robots to move through the world?
+img: assets/img/1.jpg
+importance: 3
 category: fun
 ---
 

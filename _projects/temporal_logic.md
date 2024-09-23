@@ -1,10 +1,13 @@
 ---
 layout: page
-title: project 5
-description: a project with a background image
-img: assets/img/1.jpg
-importance: 3
-category: fun
+title: Temporal Logic Planning
+description: How can robots plan to accomplish complex tasks?
+img: assets/img/3.jpg
+importance: 2
+category: work
+related_publications: kurtz2023temporal, kurtz2022mixed, kurtz2021scalable,
+    silva2021automatic, silva2021symbolic, kurtz2020trajectory,
+    gilpin2020smooth, silva2019active
 ---
 
 Every project has a beautiful feature showcase page.

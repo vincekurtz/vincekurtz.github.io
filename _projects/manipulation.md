@@ -1,7 +1,7 @@
 ---
 layout: page
-title: project 4
-description: another without an image
+title: Dextrous Manipulation
+description: How can we get robots to move stuff around?
 img:
 importance: 3
 category: fun
