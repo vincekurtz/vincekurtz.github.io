@@ -5,20 +5,11 @@ description: How can we get robots to move stuff around?
 img:
 importance: 3
 category: fun
+related_publications: kurtz2023inverse
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
-
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+The goal of robot manipulation is simple: just move an object from point A to
+point B. How hard can it be?
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -32,49 +23,42 @@ To give your project a background in the portfolio page, just add the img tag to
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+    A simulated robot hand uses [contact-implicit
+    optimization](https://idto.github.io) to perform
+    in-hand reorientation.
 </div>
+
+Very hard, it turns out. For example, consider the board games chess and Go.
+These are very challenging games, with more possible games than atoms in the
+universe, but computers are better than people at both. But in the
+[famous](https://en.wikipedia.org/wiki/Deep_Blue_versus_Garry_Kasparov)
+[matches](https://en.wikipedia.org/wiki/AlphaGo_versus_Lee_Sedol)
+where computers first defeated the best human players, it was a
+human engineer, not a robot, that moved the computer's pieces. 
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    This image can also have a caption. It's like magic.
+    Computers can beat the best human players at chess and Go, but are still 
+    <a href="https://www.theguardian.com/sport/2022/jul/24/chess-robot-grabs-and-breaks-finger-of-seven-year-old-opponent-moscow">
+    not very good at moving the pieces</a>.
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+Dextrous manipulation is particularly difficult -- and fascinating -- because we humans are
+so good at it. This can blind us to what we're actually doing. For example, 
+early manipulation research focused a lot on grasping: how to
+position the fingers around an object, how to plan a collision-free path to that
+grasp, and so on.
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+Now there is a [growing
+understanding](https://manipulation.csail.mit.edu/intro.html#section1)
+that this may not be the best approach. When people move stuff around, we rarely search
+for stable grasps. Instead, we push, pull, shuffle, and slide things into place,
+constantly shifting between contact modes in complicated and interesting ways. 
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
