@@ -16,7 +16,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Hi, I'm Vince! I'm broadly interested in applying mathematical models to solve
+Hi, I'm Vince! I'm interested in applying mathematical models to solve
 real-world problems. Recently, that's meant developing optimization-based
 planning and control algorithms for high-degree-of-freedom robots like
 quadrupeds and manipulators. 
@@ -31,6 +31,6 @@ lab](https://sites.google.com/a/nd.edu/discoverlab/) at Notre
 Dame. During my PhD, I had the opportunity to collaborate with the excellent
 [Drake](https://drake.mit.edu) team at 
 [Toyota Research Institute](https://www.tri.global/). Before grad school, I
-studied physics and music (violin performance) at 
+studied physics and violin performance at 
 [Goshen College](https://goshen.edu). 
 
