@@ -14,24 +14,23 @@ point B. How hard could it be?
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/allegro_rotation.gif" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/allegro_rotation_one.gif" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/allegro_rotation_two.gif" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    A simulated robot hand uses [contact-implicit
-    optimization](https://idto.github.io) to perform
-    in-hand reorientation.
+    A simulated robot hand uses <a href="https://idto.github.io">IDTO</a>
+    to perform in-hand manipulation.
 </div>
 
 Very hard, it turns out. For example, consider the board games chess and Go.
 These are very challenging games, with more possible games than atoms in the
-universe, but computers are better than people at both. But in the
+universe, and computers are better than people at both. But in the
 [famous](https://en.wikipedia.org/wiki/Deep_Blue_versus_Garry_Kasparov)
 [matches](https://en.wikipedia.org/wiki/AlphaGo_versus_Lee_Sedol)
 where computers first defeated the best human players, it was a
@@ -39,10 +38,10 @@ human engineer, not a robot, that moved the computer's pieces.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/DeepBlue_circled.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/AlphaGo_circled.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -63,3 +62,7 @@ that this may not be the best approach. When people move stuff around, we rarely
 for stable grasps. Instead, we push, pull, shuffle, and slide things into place,
 constantly shifting between contact modes in complicated and interesting ways. 
 
+## Image Sources
+
+1. [https://www.pri.org/stories/2018-01-05/garry-kasparov-and-game-artificial-intelligence](https://www.pri.org/stories/2018-01-05/garry-kasparov-and-game-artificial-intelligence)
+2. [https://www.theguardian.com/technology/2016/mar/09/google-deepmind-alphago-ai-defeats-human-lee-sedol-first-game-go-contest](https://www.theguardian.com/technology/2016/mar/09/google-deepmind-alphago-ai-defeats-human-lee-sedol-first-game-go-contest)

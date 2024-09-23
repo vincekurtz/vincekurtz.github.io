@@ -3,7 +3,7 @@ layout: page
 title: Certifying Reduced-Order Models
 description: Can we obtain formal guarantees when planning with a reduced-order model?
 img: assets/img/slip_model.png
-importance: 4
+importance: 3
 category: work
 related_publications: kurtz2020approximate, song2022robust,
     kurtz2020robust, kurtz2021control, kurtz2019formal
