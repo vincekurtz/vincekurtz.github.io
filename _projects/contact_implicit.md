@@ -5,7 +5,7 @@ description: How can we design trajectories that make and break contact?
 img: assets/img/lift_simulation.png
 importance: 1
 category: work
-related_publications: kurtz2023inverse, kurtz2022contact
+related_publications: li2024drop, kurtz2023inverse, kurtz2022contact
 ---
 
 Most things we want robots to do involve contact. Picking stuff up requires

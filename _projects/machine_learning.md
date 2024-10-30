@@ -5,7 +5,7 @@ description: Can we combine the promise of machine learning with the rigor of mo
 img: assets/img/neural_net.png
 importance: 4
 related_publications: saxena2016learning, kurtz2019toward, lemmon2022learning,
-    kurtz2022mini, kurtz2024supervised
+    kurtz2022mini, kurtz2024supervised, kurtz2024equality
 ---
 
 Deep neural networks have revolutionized computer vision and natural language

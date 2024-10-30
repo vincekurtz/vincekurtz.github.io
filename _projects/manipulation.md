@@ -6,7 +6,7 @@ img: assets/img/allegro_rotation.gif
 importance: 6
 category: fun
 related_publications: kurtz2023inverse, kurtz2020trajectory, kurtz2022contact,
-    kurtz2021control
+    kurtz2021control, li2024drop
 ---
 
 The goal of robot manipulation is simple: just move an object from point A to
