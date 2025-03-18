@@ -39,3 +39,6 @@ Dame. Before grad school, I
 studied physics and violin performance at 
 [Goshen College](https://goshen.edu). 
 
+**Prospective Students:** If you are a highly motivated student interested in
+pursuing cutting-edge robotics research in the heart of downtown Chicago, please
+feel free to [reach out](contact)!
