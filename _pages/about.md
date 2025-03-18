@@ -2,7 +2,9 @@
 layout: about
 title: About
 permalink: /
-subtitle: Research Scientist, Caltech
+subtitle: 
+  Assistant Professor, DePaul University (incoming) <br>
+  Visiting Research Fellow, Toyota Research Institute
 
 profile:
   align: right
@@ -16,22 +18,24 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Hi, I'm Vince! I'm interested in applying mathematical models to solve
-real-world problems. Recently, that's meant developing optimization-based
-planning and control algorithms for high-degree-of-freedom robots like
-quadrupeds and manipulators. 
+Hi, I'm Vince! I'll be joining [DePaul's School of
+Computing](https://www.depaul.edu/) in January 2026. Until then, I'm working
+with the [Large Behavior Models](https://www.tri.global/our-work/robotics) team
+at Toyota Research Institue.
 
-Sometimes my research involves flashy things like
-[throwing robots off ladders](https://youtu.be/FRcyfp-9x5o?t=198) to get them to land
-on their feet: other times it's more mundane, like getting a robot to
-[pick up a plastic box](https://youtu.be/-lJWiGdBPfQ?t=131).
+In my research, I develop planning and control algorithms for
+high-degree-of-freedom robots like quadrupeds, humanoids, and manipulators.
+Sometimes this involves flashy things like
+[throwing robots off ladders](https://youtu.be/FRcyfp-9x5o?t=198) to get them to
+land on their feet: other times it's more mundane, like getting a robot to
+[fidget with a cube](https://caltech-amber.github.io/drop/).
 
-I'm currently a research scientist in the [Burdick](http://robotics.caltech.edu/)
-group at Caltech. From 2017-2023 I was a PhD student in the [DISCOVER
-lab](https://sites.google.com/a/nd.edu/discoverlab/) at Notre
-Dame. During my PhD, I had the opportunity to collaborate with the
-[Drake](https://drake.mit.edu) team at 
-[Toyota Research Institute](https://www.tri.global/). Before grad school, I
+I previously worked as a postdoc and research scientist in the
+[Ames](http://www.bipedalrobotics.com/) and 
+[Burdick](http://robotics.caltech.edu/) groups at Caltech. From 2017-2023 I was
+a PhD student in the
+[DISCOVER lab](https://sites.google.com/a/nd.edu/discoverlab/) at Notre
+Dame. Before grad school, I
 studied physics and violin performance at 
 [Goshen College](https://goshen.edu). 
 
