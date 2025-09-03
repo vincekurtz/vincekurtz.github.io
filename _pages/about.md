@@ -20,7 +20,8 @@ social: true # includes social icons at the bottom of the page
 
 Hi, I'm Vince! I'll be joining [DePaul's School of
 Computing](https://www.depaul.edu/) in January 2026. Until then, I'm working
-with the [Large Behavior Models](https://www.tri.global/our-work/robotics) team
+with the [Large Behavior
+Models](https://www.tri.global/our-work/large-behavior-models) team
 at Toyota Research Institue.
 
 In my research, I develop planning and control algorithms for
@@ -41,4 +42,4 @@ studied physics and violin performance at
 
 **Prospective Students:** If you are a highly motivated student interested in
 pursuing cutting-edge robotics research in the heart of downtown Chicago, please
-feel free to [reach out](contact)!
+[reach out](contact)!

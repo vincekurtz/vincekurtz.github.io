@@ -6,5 +6,5 @@ related_posts: false
 ---
 
 Over the next year, I'll be working with the [Large Behavior
-Models](https://www.tri.global/our-work/robotics) team at TRI as a Visiting
+Models](https://www.tri.global/our-work/large-behavior-models) team at TRI as a Visiting
 Research Fellow!
