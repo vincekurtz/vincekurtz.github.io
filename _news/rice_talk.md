@@ -6,5 +6,6 @@ related_posts: false
 ---
 
 I'll be giving a talk on my research at the [Rice University Mechanical
-Engineering seminar series](https://mech.rice.edu/news-events/seminar-series)
+Engineering seminarseries](
+https://events.rice.edu/event/406691-mech-seminar-series-dr-vincent-kurtz)
 
