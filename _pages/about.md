@@ -40,6 +40,6 @@ Dame. Before grad school, I
 studied physics and violin performance at 
 [Goshen College](https://goshen.edu). 
 
-**Prospective Students:** If you are a highly motivated student interested in
-pursuing cutting-edge robotics research in the heart of downtown Chicago, please
-[reach out](contact)!
+**Prospective Students:** My new research group at DePaul University (Chicago) is hiring
+for a PhD student position. See [details here](prospective_students).
+
