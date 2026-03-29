@@ -32,6 +32,7 @@ Dame. Before grad school, I
 studied physics and violin performance at 
 [Goshen College](https://goshen.edu). 
 
-**Prospective Students:** My new research group is hiring
-for a PhD student position. See [details here](prospective_students).
+**Prospective Students:** We're always looking for curious, highly-motivated
+student researchers at the undergraduate, masters, and PhD levels. See 
+[details here](prospective_students).
 

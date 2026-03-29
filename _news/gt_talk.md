@@ -5,6 +5,8 @@ inline: true
 related_posts: false
 ---
 
-Gave a seminar talk on *Simulation-Driven Generative Control* at Georgia Tech - thanks 
-to the [LIDAR group](https://lab-idar.gatech.edu/) for the invitation and engaging discussion!
+Gave a [seminar talk](https://youtu.be/-olZr-W9GNg) on *Simulation-Driven
+Generative Control* at Georgia Tech - thanks to the
+[LIDAR group](https://lab-idar.gatech.edu/) for the invitation and engaging
+discussion!
 
