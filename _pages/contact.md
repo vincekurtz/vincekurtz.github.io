@@ -15,7 +15,7 @@ Email is the most reliable way to get in touch:
 {%- if page.social %}
   <div class="social">
     <div class="contact-icons">
-      {% include social.html %}
+      {% social_links %}
     </div>
 
     <div class="contact-note">

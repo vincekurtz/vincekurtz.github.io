@@ -23,7 +23,7 @@ optimization to decide when and where to make and break contact.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/forward_push_frames.png" title="robot rolls a ball" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/forward_push_frames.png" title="robot rolls a ball" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -37,7 +37,7 @@ Control (MPC)](https://en.wikipedia.org/wiki/Model_predictive_control).
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include video.html path="assets/video/bimanual_strike.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true loop=true %}
+        {% include video.liquid path="assets/video/bimanual_strike.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true loop=true %}
     </div>
 </div>
 <div class="caption">

@@ -10,7 +10,7 @@ details.
 ## Testing Locally
 
 ```
-docker-compose up
+docker compose up
 ```
 
 ## Making updates
